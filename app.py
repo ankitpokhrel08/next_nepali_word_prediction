@@ -4,15 +4,6 @@ import pickle
 from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 
-# Add description before cache
-DESCRIPTION = """
-This is a Nepali next word prediction model built using:
-- GRU (Gated Recurrent Unit) RNN architecture
-- Trained on Nepali text dataset from Kaggle
-- Uses deep learning to predict the next most likely word
-- Model achieves reasonable accuracy for common Nepali phrases
-"""
-
 st.markdown("""
 <div style='background-color: #e8f4f8; padding: 15px; border-radius: 5px; margin-bottom: 20px;'>
 <h3 style='color: #2c3e50; margin-bottom: 10px;'>About this Model</h3>
