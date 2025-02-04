@@ -10,3 +10,5 @@ keras
 scikeras
 plotly
 nltk
+tensorflow-metal
+tensorflow-macos
